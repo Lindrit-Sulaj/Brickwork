@@ -1,6 +1,7 @@
 import './globals.css'
 import { Navbar } from '@/components'
 import { Manrope } from 'next/font/google'
+import Script from 'next/script'
 
 const manrope = Manrope({ subsets: ['latin'], weight: [ '200', '300', '400', '500', '600', '700', '800'] })
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={manrope.className}>
         <Navbar />
         {children}
+        <Script src="https://kit.fontawesome.com/72aeedc907.js" crossorigin="anonymous" />
       </body>
     </html>
   )

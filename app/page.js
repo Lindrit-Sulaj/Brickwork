@@ -1,9 +1,11 @@
+import { Hero } from '@/containers'
 import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className='min-h-screen text-3xl font-black'>
-      Tilework
+    <main className=''>
+      <Hero />
+      <div className="h-[1400px]"></div>
     </main>
   )
 }
