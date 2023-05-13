@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Stats() {
   return (
-    <section className='px-4 -mt-8 md:-mt-14'>
+    <section className='px-4 -mt-8 md:-mt-12'>
       <div className='max-w-screen-lg shadow-md mx-auto flex flex-wrap'>
         <div className='w-full md:w-1/2 py-10 px-8 bg-mikado'>
           <p className='font-semibold'>Milestones and Achievements</p>
@@ -28,7 +28,7 @@ const Stat = ({ icon = "", number = "", description = "" }) => {
       <i className={`${icon} text-2xl md:text-3xl text-gold`}></i>
       <div>
         <p className='font-bold text-xl md:text-[27px]'>{number}</p>
-        <p className='text-neutral-700'>{description}</p>
+        <p className='text-neutral-700 mt-1'>{description}</p>
       </div>
     </div>
   )
