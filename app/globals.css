@@ -3,7 +3,23 @@
 @tailwind utilities;
 
 .hero-bg {
-  background-image: linear-gradient(45deg, rgba(0, 30, 61, 0.87), rgba(0, 30, 61, 0.637) ), url('../assets/heroImage.jpg');
+  background-image: linear-gradient(45deg, rgba(0, 30, 61, 0.87), rgba(0, 30, 61, 0.637)), url('../assets/heroImage.jpg');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sustainability-bg {
+  background-image: linear-gradient(45deg, rgba(0, 30, 61, 0.925), rgba(0, 30, 61, 0.801)), url('https://ik.imagekit.io/0s9lwb2yr/Brickwork/tr:w-800/pexels-bidvine-1249611_AtqtfQyqQ.jpg?updatedAt=1684052220831');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bestInField-bg {
+  background-image: linear-gradient(45deg, #ffc400d8, #ffc400da), url('https://ik.imagekit.io/0s9lwb2yr/Brickwork/tr:w-800/pexels-pixabay-416405_TOTNfMb7s.jpg?updatedAt=1684052235212');
   width: 100%;
   background-position: center;
   background-size: cover;
