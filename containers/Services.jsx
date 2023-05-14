@@ -7,7 +7,7 @@ export default function Services() {
       <div className='max-w-screen-web mx-auto'>
         <div>
           <p className='text-mikado text-center text-lg font-semibold'>Our services</p>
-          <h2 className='font-bold text-center text-2xl md:text-3xl mt-2'>Quality Services</h2>
+          <h2 className='font-bold text-center text-2xl md:text-3xl mt-1'>Quality Services</h2>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-8 mt-6'>
           <Service
