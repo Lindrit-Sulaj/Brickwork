@@ -13,6 +13,9 @@ module.exports = {
         mikado: '#FFC300',
         yaleBlue: '#003566',
         oxfordBlue: '#001D3D'
+      },
+      screens: {
+        web: '1200px'
       }
     },
   },

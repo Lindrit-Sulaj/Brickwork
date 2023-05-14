@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Services() {
   return (
     <section className='px-6 md:px-8 my-14'>
-      <div className='max-w-screen-lg mx-auto'>
+      <div className='max-w-screen-web mx-auto'>
         <div>
           <p className='text-mikado text-center text-lg font-semibold'>Our services</p>
           <h2 className='font-bold text-center text-2xl md:text-3xl mt-2'>Quality Services</h2>
@@ -34,7 +34,7 @@ export default function Services() {
 const Service = ({ title = '', text = '', image = "", iconImage = '' }) => {
   return (
     <div>
-      <img className='shadow-md w-full h-52 md:h-auto object-cover' src={image} alt={title} />
+      <img className='shadow-md w-full h-52 md:h-60 object-cover' src={image} alt={title} />
       <div className=''>
         <h4 className='font-semibold text-xl text-center mt-4'>{title}</h4>
         <p className='text-center text-neutral-600 font-medium mt-2'>{text}</p>

@@ -141,8 +141,8 @@ function Company() {
 
 function Links() {
   return (
-    <div className='flex justify-between h-[50px] mt-4'>
-      <ul className='flex h-full items-center gap-5'>
+    <div className='flex justify-between h-[50px] mt-4 bg-neutral-100'>
+      <ul className='flex h-full items-center gap-5 px-4'>
         <li className='text-neutral-700 hover:text-neutral-500'>
           <Link href="/">Home</Link>
         </li>
