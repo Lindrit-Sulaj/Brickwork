@@ -8,7 +8,6 @@ export default function Home() {
       <Services />
       <Sustainability />
       <Team />
-      <div className="h-[1400px]"></div>
     </main>
   )
 }
