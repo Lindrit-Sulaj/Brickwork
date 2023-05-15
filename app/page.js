@@ -1,4 +1,10 @@
-import { Hero, Stats, Services, Sustainability, Team } from '@/containers'
+import { 
+  Hero, 
+  Stats, 
+  Services, 
+  Sustainability, 
+  Team, 
+  Contact } from '@/containers'
 
 export default function Home() {
   return (
@@ -8,6 +14,7 @@ export default function Home() {
       <Services />
       <Sustainability />
       <Team />
+      <Contact />
     </main>
   )
 }
