@@ -4,7 +4,8 @@ import {
   Services, 
   Sustainability, 
   Team, 
-  Contact } from '@/containers'
+  Contact,
+  Projects } from '@/containers'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Sustainability />
       <Team />
       <Contact />
+      <Projects />
     </main>
   )
 }
