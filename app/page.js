@@ -5,7 +5,8 @@ import {
   Sustainability, 
   Team, 
   Contact,
-  Projects } from '@/containers'
+  Projects,
+  WorkProcess } from '@/containers'
 
 import { StartProject } from '@/components'
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Contact />
       <Projects />
       <StartProject />
+      <WorkProcess />
     </main>
   )
 }

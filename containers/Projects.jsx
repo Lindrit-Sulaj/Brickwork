@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 
 export default function Projects() {
   return (
-    <section className='px-6 md:px-8 my-14'>
+    <section className='px-6 md:px-8 my-14 lg:my-18'>
       <div className='max-w-screen-web mx-auto'>
         <div>
           <p className='text-mikado text-center text-lg font-semibold'>Our Works</p>

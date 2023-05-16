@@ -8,7 +8,7 @@ export default function StartProject() {
           <h2 className='font-bold text-2xl md:text-3xl mt-1'>Want to work with us?</h2>
           <p className='md:text-lg font-medium mt-2'>Our team of engineers and architects is ready to work on your project!</p>
         </div>
-        <button className='py-4 px-5 bg-yaleBlue hover:bg-oxfordBlue text-white font-medium'>Get Started</button>
+        <button className='py-4 px-5 bg-yaleBlue hover:bg-oxfordBlue text-white font-medium'>Get Started <i className="fa-solid fa-chevron-right ml-2"></i></button>
       </div>
     </section>
   )
