@@ -7,6 +7,8 @@ import {
   Contact,
   Projects } from '@/containers'
 
+import { StartProject } from '@/components'
+
 export default function Home() {
   return (
     <main className=''>
@@ -17,6 +19,7 @@ export default function Home() {
       <Team />
       <Contact />
       <Projects />
+      <StartProject />
     </main>
   )
 }
