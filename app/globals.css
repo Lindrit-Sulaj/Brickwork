@@ -25,3 +25,11 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.testimonials-bg {
+  background-image: linear-gradient(45deg, rgba(0, 30, 61, 0.925), rgba(0, 30, 61, 0.801)), url('https://ik.imagekit.io/0s9lwb2yr/Brickwork/pexels-anete-lusina-4792479_CMs1UbswJ.jpg?updatedAt=1684337754963');
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

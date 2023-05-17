@@ -6,6 +6,7 @@ import Team from "./Team";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import WorkProcess from "./WorkProcess";
+import Testimonials from "./Testimonials";
 
 export {
   Hero,
@@ -15,5 +16,6 @@ export {
   Team,
   Contact,
   Projects,
-  WorkProcess
+  WorkProcess,
+  Testimonials
 }

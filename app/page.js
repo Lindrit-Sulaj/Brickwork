@@ -6,7 +6,8 @@ import {
   Team, 
   Contact,
   Projects,
-  WorkProcess } from '@/containers'
+  WorkProcess,
+  Testimonials } from '@/containers'
 
 import { StartProject } from '@/components'
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Projects />
       <StartProject />
       <WorkProcess />
+      <Testimonials />
     </main>
   )
 }
