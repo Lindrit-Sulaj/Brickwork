@@ -1,5 +1,5 @@
 import './globals.css'
-import { Navbar } from '@/components'
+import { Navbar, Footer } from '@/components'
 import { Manrope } from 'next/font/google'
 import Script from 'next/script'
 
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={manrope.className}>
         <Navbar />
         {children}
+        <Footer />
         <Script src="https://kit.fontawesome.com/72aeedc907.js" crossorigin="anonymous" />
       </body>
     </html>
