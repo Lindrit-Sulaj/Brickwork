@@ -7,7 +7,8 @@ import {
   Contact,
   Projects,
   WorkProcess,
-  Testimonials } from '@/containers'
+  Testimonials,
+  Blog } from '@/containers'
 
 import { StartProject } from '@/components'
 
@@ -24,6 +25,7 @@ export default function Home() {
       <StartProject />
       <WorkProcess />
       <Testimonials />
+      <Blog />
     </main>
   )
 }
